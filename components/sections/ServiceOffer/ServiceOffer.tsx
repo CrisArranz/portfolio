@@ -6,7 +6,7 @@ export default function ServiceOffer() {
       <div>
         <h3 className="text-3xl py-1">Servicios que proporciono</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-          Desde el comienzo de mi viaje en este sector he trabajado de manera presencial y remota para toda clase de <strong className="text-teal-500">empresas</strong> y <strong className="text-teal-500">consultoras</strong>, colaborando con gente top en el sector para crear productos digitales para el consumo del usuario y del empleado
+          Desde el comienzo de mi viaje en este sector he trabajado de manera presencial y remota para toda clase de <strong className="text-teal-500">empresas</strong> y <strong className="text-teal-500">consultoras</strong>, colaborando con gente top en el sector para crear productos digitales para el consumo del usuario y del empleado.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           Ofrezco experiencia desde todos los puntos, como programador, diseñador y también ayudando al aprendizaje colectivo.
@@ -32,7 +32,7 @@ export default function ServiceOffer() {
           title: "Trabajo en equipo",
           description: "Trabajar en equipo y ordenado como pilar fundamental",
           titleTools: "Herramientas más usadas",
-          tools: ["SCRUM", "Agile"]
+          tools: ["SCRUM", "KANBAN"]
         }} />
       </div>
     </div>
