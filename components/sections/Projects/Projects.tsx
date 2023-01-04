@@ -13,7 +13,7 @@ export default function Projects() {
             project: "https://crisarranz.github.io/proyect-street-ironter/index.html"
           },
           title: "Street Fighter vol. IronHack",
-          description: "Desarrollado con CANVAS, Javascript (ES6). Desplegado a través de GitHub"
+          description: "Desarrollado con CANVAS, Javascript (ES6). Desplegado a través de GitHub."
         }} />
         <ImageCard values={{
           url: {
