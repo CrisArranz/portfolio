@@ -9,7 +9,7 @@ export default function AboutMe() {
       </div>
       <div className="text-center px-10 pt-10 pb-5">
         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Cristian Arranz Arevalo</h2>
-        <h3 className="text-2xl py-2 md:text-3xl">Fullstack Junior Developer</h3>
+        <h3 className="text-2xl py-2 md:text-3xl">Fullstack Developer</h3>
         <p className="text-md py-5 leading-20 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">Desarrollador fullstack ofreciendo servicios y diseños a medida. <br />Únete mas abajo y ¡Que empiece el coding!</p>
       </div>
       <div className="text-5xl flex justify-center gap-10 text-gray-600 pb-16 dark:text-white">
