@@ -19,7 +19,15 @@ export default function Projects() {
             project: "https://proyect-glovo.herokuapp.com/"
           },
           title: "Glovo App",
-          description: "Desarrollado con la libreria Express de Nodejs, Javascript (ES6), usando la libreria de Bootstrap. Desplegado en Heroku."
+          description: "Desarrollado con la libreria Express de Nodejs, MongoDB, Javascript (ES6), usando la libreria de Bootstrap. Desplegado en Heroku."
+        }} />
+        <ImageCard values={{
+          url: {
+            image: "https://res.cloudinary.com/dp520ozjl/image/upload/v1673371368/personal/WorkOnIt_boigza.png",
+            project: "https://work-on-it.herokuapp.com/"
+          },
+          title: "Work On It",
+          description: "Desarrollado con REACT el front, con la libreria Express de Nodejs y MongoDB para el backend, Javascript (ES6), usando la libreria de Bootstrap. Desplegado en Heroku usando Docker."
         }} />
       </div>
     </div>
