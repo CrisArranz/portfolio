@@ -11,7 +11,8 @@ export default function Projects() {
             project: "https://crisarranz.github.io/proyect-street-ironter/index.html"
           },
           title: "Street Fighter vol. IronHack",
-          description: "Desarrollado con CANVAS, Javascript (ES6). Desplegado a través de GitHub."
+          description: "Desarrollado con CANVAS, Javascript (ES6). Desplegado a través de GitHub.",
+          technologies: ["javascript", "html5", "css3", "bootstrap"]
         }} />
         <ImageCard values={{
           url: {
@@ -19,7 +20,8 @@ export default function Projects() {
             project: "https://proyect-glovo.herokuapp.com/"
           },
           title: "Glovo App",
-          description: "Desarrollado con la libreria Express de Nodejs, MongoDB, Javascript (ES6), usando la libreria de Bootstrap. Desplegado en Heroku."
+          description: "Desarrollado con la libreria Express de Nodejs, MongoDB, Javascript (ES6), usando la libreria de Bootstrap. Desplegado en Heroku.",
+          technologies: ["nodejs", "html5", "css3", "bootstrap"]
         }} />
         <ImageCard values={{
           url: {
@@ -27,7 +29,8 @@ export default function Projects() {
             project: "https://work-on-it.herokuapp.com/"
           },
           title: "Work On It",
-          description: "Desarrollado con REACT el front, con la libreria Express de Nodejs y MongoDB para el backend, Javascript (ES6), usando la libreria de Bootstrap. Desplegado en Heroku usando Docker."
+          description: "Desarrollado con REACT el front, con la libreria Express de Nodejs y MongoDB para el backend, Javascript (ES6), usando la libreria de Bootstrap. Desplegado en Heroku usando Docker.",
+          technologies: ["react", "nodejs", "docker", "bootstrap", "html5", "css3"]
         }} />
       </div>
     </div>
