@@ -14,10 +14,11 @@ interface Props {
 }
 
 export default function ImageCard({ values }: Props) {
+  const css = { width: '100%', height: 'auto' }
   return (
     <div className="basis-1/3 flex-1 ">
       <a className="relative text-black md:hover:text-teal-600" href={values.url.project}>
-          <Image className="rounded-lg object-cover" src={values.url.image} layout="responsive" width={1000} height={1000} alt={values.title} />
+          <Image className="rounded-lg object-cover" src={values.url.image} sizes="100vw" style={css} width={1000} height={1000} alt={values.title} />
           <div className="absolute flex bottom-1 right-1">
             <Icons technologies={ values.technologies } />
           </div>
