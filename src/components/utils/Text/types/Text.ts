@@ -1,3 +1,6 @@
-export type TextDTO = {
+export type TextProps = {
   message: string;
+  styles?: {
+    className?: string;
+  };
 }
