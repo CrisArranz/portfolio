@@ -6,7 +6,7 @@ export const AboutMe = () => {
 
   return ( 
     <section className='relative mx-auto container px-2 pt-44 lg:h-screen overflow-hidden lg:pt-0 lg:w-[50vw] flex flex-col justify-center gap-4'>
-      <div className='flex flex-col items-center lg:flex-row-reverse lg:justify-center lg:items-center md:gap-x-4'>
+      <div className='flex flex-col gap-8 items-center lg:flex-row-reverse lg:justify-center lg:items-center md:gap-x-4'>
         <Image alt="Foto pérfil Cristian Arranz Arevalo" src="https://res.cloudinary.com/dp520ozjl/image/upload/v1671669667/personal/IMGCV_CristianArranzArevalo_zcgj2u.jpg" />
         <header className='lg:w-4/5 text-center'>
           <Text type="HEADING_1" message="Hola," styles={{ className: "text-3xl font-bold lg:text-5xl lg:leading-[4rem] text-black dark:text-white" }}>

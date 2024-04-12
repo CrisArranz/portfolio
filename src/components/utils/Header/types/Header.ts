@@ -1,3 +1,4 @@
 export type HeaderProps = {
-  onClickDark: () => void
+  onClickDark: () => void;
+  isDark: boolean;
 }

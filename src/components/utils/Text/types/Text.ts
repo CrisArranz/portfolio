@@ -4,7 +4,7 @@ export type TextProps = {
   styles?: {
     className?: string;
   };
-  children?: JSX.Element;
+  children?: JSX.Element | JSX.Element[];
 }
 
 enum ElementType {
