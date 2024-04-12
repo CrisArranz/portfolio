@@ -1,4 +1,4 @@
-import { HeaderProps } from "./types/Header";
+import { HeaderProps } from "./types/header";
 
 export const Header: React.FC<HeaderProps> = ({ onClickDark }) => {
   return (

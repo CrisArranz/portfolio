@@ -1,2 +1,3 @@
-export * from './AboutMe'
-export * from './MyKnowledge'
+export * from './about-me'
+export * from './knowledge'
+export * from './experience';
