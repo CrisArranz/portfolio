@@ -1,5 +1,5 @@
 export type TextProps = {
-  message: string;
+  message?: string;
   type: keyof typeof ElementType;
   styles?: {
     className?: string;

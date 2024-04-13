@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AboutMe, Experience, Knowledge } from "./components/sections"
+import { AboutMe, Experience, Knowledge, Work } from "./components/sections"
 import { Header } from "./components/utils/Header";
 
 export const App = () => {
@@ -16,6 +16,7 @@ export const App = () => {
         <AboutMe />
         <Experience id="experience" />
         <Knowledge id="tecnologies" />
+        <Work id="projects"/>
       </div>
     </div>
   );

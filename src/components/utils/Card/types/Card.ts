@@ -1,14 +1,12 @@
 export type CardProps = {
-  message?: string;
-  list: typeList[];
+  title: string;
+  type: string;
+  description: string;
+  tags?: string[];
+  urls?: typeUrl[];
 }
 
-type typeList = {
-  type: keyof typeof types,
-  items: string[]
-}
-
-enum types {
-  TEXTS = "TEXTS",
-  IMAGES = "IMAGES"
+type typeUrl = {
+  title: string;
+  url: string;
 }
