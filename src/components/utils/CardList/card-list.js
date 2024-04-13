@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Text } from '../Text';
+export const CardList = ({ title, list }) => {
+    return (_jsx("article", { className: 'relative rounded-lg p-2 bg-gradient-to-br dark:to-emerald-600 dark:from-emerald-700 to-emerald-600 from-emerald-500 shadow-2xl overflow-hidden', children: _jsxs("div", { className: 'bg-white dark:bg-black dark:text-white text-black p-4 rounded-lg h-full', children: [_jsx(Text, { type: 'HEADING_3', message: title, styles: { className: 'text-center capitalize mb-8 text-3xl font-bold lg:text-4xl lg:break-words bg-gradient-to-t from-emerald-400 to-emerald-600 dark:from-emerald-200 dark:to-emerald-400 bg-clip-text text-transparent' } }), _jsx("section", { className: 'grid grid-cols-3 grid-rows-3 gap-4', children: list.map(({ item, name }) => _jsxs("div", { className: ' rounded-2xl group flex flex-col justify-center items-center', children: [item, _jsx(Text, { type: 'PARAGRAPH', message: name })] })) })] }) }));
+};
