@@ -1,6 +1,9 @@
 import { useState } from "react";
-import { AboutMe, Experience, Knowledge, Work } from "./components/sections"
-import { Header } from "./components/utils/Header";
+import { AboutMe } from "./components/sections/about-me/about-me";
+import { Experience } from "./components/sections/experience/experience";
+import { Knowledge } from "./components/sections/knowledge/knowledge";
+import { Work } from "./components/sections/work/work";
+import { Header } from "./components/utils/header/header";
 
 export const App = () => {
   const [isDark, setisDark] = useState(false);

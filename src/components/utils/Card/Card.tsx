@@ -1,4 +1,4 @@
-import { Text } from "../Text";
+import { Text } from "../text/text";
 import { CardProps } from "./types/card";
 
 export const Card: React.FC<CardProps> = ({ title, description, type, image, tags, urls }) => {

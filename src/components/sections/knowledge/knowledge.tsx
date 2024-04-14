@@ -1,7 +1,8 @@
 import React from 'react';
-import { CardList, Text } from "../../utils";
+import { CardList } from "../../utils/card-list/card-list";
+import { Text } from "../../utils/text/text";
 import { knowledgeProps } from './types/knowledge';
-import { CardListProps } from '../../utils/CardList/types/card-list';
+import { CardListProps } from '../../utils/card-list/types/card-list';
 
 export const Knowledge: React.FC<knowledgeProps> = ({ id }) => {
 
