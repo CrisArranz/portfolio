@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HeaderProps } from "./types/header";
+import { HeaderProps } from "./types/header-component";
 
 export const Header: React.FC<HeaderProps> = ({ onClickDark, isDark }) => {
 

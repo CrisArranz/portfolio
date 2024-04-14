@@ -1,4 +1,4 @@
-import { Text } from "../../utils/text/text";
+import { Text } from "../../utils/text-component/text-component";
 import { ExperienceProps } from "./types/experience";
 
 export const Experience: React.FC<ExperienceProps> = ({ id }) => {

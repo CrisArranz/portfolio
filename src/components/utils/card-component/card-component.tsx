@@ -1,5 +1,5 @@
-import { Text } from "../text/text";
-import { CardProps } from "./types/card";
+import { Text } from "../text-component/text-component";
+import { CardProps } from "./types/card-component";
 
 export const Card: React.FC<CardProps> = ({ title, description, type, image, tags, urls }) => {
   return (

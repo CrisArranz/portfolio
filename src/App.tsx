@@ -3,7 +3,7 @@ import { AboutMe } from "./components/sections/about-me/about-me";
 import { Experience } from "./components/sections/experience/experience";
 import { Knowledge } from "./components/sections/knowledge/knowledge";
 import { Work } from "./components/sections/work/work";
-import { Header } from "./components/utils/header/header";
+import { Header } from "./components/utils/header-component/header-component";
 
 export const App = () => {
   const [isDark, setisDark] = useState(false);

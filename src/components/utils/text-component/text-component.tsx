@@ -1,5 +1,5 @@
 import React from "react"
-import { TextProps } from "./types/text"
+import { TextProps } from "./types/text-component"
 
 export const Text: React.FC<TextProps> = ({ message, styles, children,type }) => {
   switch (type) {

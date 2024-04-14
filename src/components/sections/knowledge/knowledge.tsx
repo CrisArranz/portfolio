@@ -1,6 +1,6 @@
 import React from 'react';
 import { CardList } from "../../utils/card-list/card-list";
-import { Text } from "../../utils/text/text";
+import { Text } from "../../utils/text-component/text-component";
 import { knowledgeProps } from './types/knowledge';
 import { CardListProps } from '../../utils/card-list/types/card-list';
 
