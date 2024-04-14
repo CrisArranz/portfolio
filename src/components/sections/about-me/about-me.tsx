@@ -1,5 +1,5 @@
-import { Image } from '../../utils/image-component/image-component';
-import { Text } from '../../utils/text-component/text-component';
+import { Image } from '../../utils/image/image';
+import { Text } from '../../utils/text/text';
 
 export const AboutMe = () => {
 

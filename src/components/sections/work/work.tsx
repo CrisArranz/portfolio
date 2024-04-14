@@ -1,5 +1,5 @@
-import { Card } from "../../utils/card-component/card-component";
-import { Text } from "../../utils/text-component/text-component";
+import { Card } from "../../utils/card/card";
+import { Text } from "../../utils/text/text";
 import { WorkProps } from "./types/work"
 
 export const Work: React.FC<WorkProps> = ({ id }) => {
