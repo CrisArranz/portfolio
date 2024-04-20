@@ -1,7 +1,7 @@
 import React from "react"
-import { TextProps } from "./types/text"
+import { TypographyProps } from "./types/typography"
 
-export const Text: React.FC<TextProps> = ({ message, styles, children,type }) => {
+export const Typography: React.FC<TypographyProps> = ({ message, styles, children,type }) => {
   switch (type) {
     case 'PARAGRAPH':
       return <p className={styles?.className}>{message ?? ''}{children}</p>;

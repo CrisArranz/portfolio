@@ -1,6 +1,6 @@
 import React from 'react';
 import { CardList } from "../../utils/card-list/card-list";
-import { Text } from "../../utils/text/text";
+import { Typography } from "../../utils/typography/typography";
 import { knowledgeProps } from './types/knowledge';
 import { CardListProps } from '../../utils/card-list/types/card-list';
 
@@ -41,18 +41,18 @@ export const Knowledge: React.FC<knowledgeProps> = ({ id }) => {
   
   return (
     <section id={id} className='pt-24 container mx-auto px-2 lg:w-[900px]'>
-      <Text message='Tecnologías' type='HEADING_2' styles={{ className: 'text-3xl font-bold text-black dark:text-white' }} />
-      <Text message='' type='PARAGRAPH' styles={{ className: "my-8 text-pretty md:text-lg max-w-[740px] text-black dark:text-white" }}>
+      <Typography message='Tecnologías' type='HEADING_2' styles={{ className: 'text-3xl font-bold text-black dark:text-white' }} />
+      <Typography message='' type='PARAGRAPH' styles={{ className: "my-8 text-pretty md:text-lg max-w-[740px] text-black dark:text-white" }}>
         <>En mi recorrido en el </>
-        <Text message='sector del desarrollo web' type='SPAN' styles={{ className: "text-teal-500 dark:text-teal-200 font-semibold" }} />
+        <Typography message='sector del desarrollo web' type='SPAN' styles={{ className: "text-teal-500 dark:text-teal-200 font-semibold" }} />
         <>, he ganado </>
-        <Text message='experiencia' type='SPAN' styles={{ className: "text-fuchsia-700 dark:text-fuchsia-300 font-semibold" }} />
+        <Typography message='experiencia' type='SPAN' styles={{ className: "text-fuchsia-700 dark:text-fuchsia-300 font-semibold" }} />
         <> y desarrollado </>
-        <Text message='mis habilidades' type='SPAN' styles={{ className: "text-fuchsia-700 dark:text-fuchsia-300 font-semibold" }} />
+        <Typography message='mis habilidades' type='SPAN' styles={{ className: "text-fuchsia-700 dark:text-fuchsia-300 font-semibold" }} />
         <> en una variedad de tecnologías. </>
-        <Text message='Mi stack tecnológico incluye' type='SPAN' styles={{ className: "text-teal-500 dark:text-teal-300 font-bold" }} />
+        <Typography message='Mi stack tecnológico incluye' type='SPAN' styles={{ className: "text-teal-500 dark:text-teal-300 font-bold" }} />
         <>:</>
-      </Text>
+      </Typography>
       <section className='grid lg:grid-cols-2 lg:grid-rows-2 gap-6 lg:place-content-center'>
         <CardList title="frontend" list={frontend}/>
         <CardList title="backend" list={backend}/>

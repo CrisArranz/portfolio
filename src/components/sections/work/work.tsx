@@ -1,5 +1,5 @@
 import { Card } from "../../utils/card/card";
-import { Text } from "../../utils/text/text";
+import { Typography } from "../../utils/typography/typography";
 import { WorkProps } from "./types/work"
 
 export const Work: React.FC<WorkProps> = ({ id }) => {
@@ -14,7 +14,7 @@ export const Work: React.FC<WorkProps> = ({ id }) => {
 
   return (
     <section id={id} className="py-24 container mx-auto px-2 lg:w-[900px]">
-      <Text message='Proyectos' type='HEADING_2' styles={{ className: 'text-3xl font-bold text-black dark:text-white mb-12' }} />
+      <Typography message='Proyectos' type='HEADING_2' styles={{ className: 'text-3xl font-bold text-black dark:text-white mb-12' }} />
       <section className='grid gap-4 place-items-center md:grid-cols-2 lg:grid-cols-3 md:gap-6'>
         {cards.map(card => <Card {...card}/>)}
       </section>

@@ -1,18 +1,18 @@
-import { Text } from "../text/text";
+import { Typography } from "../typography/typography";
 import { CardProps } from "./types/card";
 
 export const Card: React.FC<CardProps> = ({ title, description, type, image, tags, urls }) => {
   return (
     <article className="group max-w-sm lg:max-w-full min-h-full bg-slate-50 rounded-xl shadow-lg dark:bg-slate-900 dark:border-slate-700">
       <div className="relative h-48 w-full overflow-hidden rounded-t-xl">
-        <Text type="SPAN" styles={{ className: "absolute top-2 right-2 flex gap-1" }}>
-          {type.map(t => <Text message={t} type="SPAN" styles={{ className: "backdrop-blur-md bg-slate-600/50 py-1 px-2 rounded-lg z-10 text-sm font-semibold text-slate-100 " }} />)}
-        </Text>
+        <Typography type="SPAN" styles={{ className: "absolute top-2 right-2 flex gap-1" }}>
+          {type.map(t => <Typography message={t} type="SPAN" styles={{ className: "backdrop-blur-md bg-slate-600/50 py-1 px-2 rounded-lg z-10 text-sm font-semibold text-slate-100 " }} />)}
+        </Typography>
         <img alt={image?.alt} loading="lazy" width="500" height="500" decoding="async" data-nimg="1" className=" group-hover:scale-[1.03]  transition-all duration-500 object-cover h-full" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" srcSet={image?.src}></img>
       </div>
       <div className="p-5">
-        <Text type="HEADING_5" message={title} styles={{ className: "mb-2 text-lg font-bold tracking-tight text-emerald-600 dark:text-emerald-400" }} />
-        <Text type="PARAGRAPH" message={description} styles={{ className: "mb-3 text-sm font-normal text-black dark:text-white line-clamp-3" }} />
+        <Typography type="HEADING_5" message={title} styles={{ className: "mb-2 text-lg font-bold tracking-tight text-emerald-600 dark:text-emerald-400" }} />
+        <Typography type="PARAGRAPH" message={description} styles={{ className: "mb-3 text-sm font-normal text-black dark:text-white line-clamp-3" }} />
         {
           tags?.length && 
           <ul className="flex gap-1 flex-wrap text-black dark:text-white text-sm mb-4">

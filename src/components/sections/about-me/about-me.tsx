@@ -1,5 +1,5 @@
 import { Image } from '../../utils/image/image';
-import { Text } from '../../utils/text/text';
+import { Typography } from '../../utils/typography/typography';
 
 export const AboutMe = () => {
 
@@ -10,11 +10,11 @@ export const AboutMe = () => {
       <div className='flex flex-col gap-8 items-center lg:flex-row-reverse lg:justify-center lg:items-center md:gap-x-4'>
         <Image alt="Foto pérfil Cristian Arranz Arevalo" src="https://res.cloudinary.com/dp520ozjl/image/upload/v1671669667/personal/IMGCV_CristianArranzArevalo_zcgj2u.jpg" />
         <header className='lg:w-4/5 text-center'>
-          <Text type="HEADING_1" message="Hola," styles={{ className: "text-3xl font-bold lg:text-5xl lg:leading-[4rem] text-black dark:text-white" }}>
-            <Text type="SPAN" message=" soy Cristian!" styles={{ className: "text-emerald-600" }}/>
-          </Text>
-          <Text type="SPAN" message="desarrollador fullstack" styles={{ className: "capitalize font-semibold inline-flex animate-background-shine bg-[linear-gradient(110deg,#64748b,45%,#0f172a,55%,#64748b)] dark:bg-[linear-gradient(110deg,#b6eaff,45%,#065074,55%,#b6eaff)] bg-[length:250%_100%] bg-clip-text text-xl text-transparent" }} />
-          <Text type="HEADING_2" message={aboutMe} styles={{ className: "text-xl text-pretty dark:text-white" }} />
+          <Typography type="HEADING_1" message="Hola," styles={{ className: "text-3xl font-bold lg:text-5xl lg:leading-[4rem] text-black dark:text-white" }}>
+            <Typography type="SPAN" message=" soy Cristian!" styles={{ className: "text-emerald-600" }}/>
+          </Typography>
+          <Typography type="SPAN" message="desarrollador fullstack" styles={{ className: "capitalize font-semibold inline-flex animate-background-shine bg-[linear-gradient(110deg,#64748b,45%,#0f172a,55%,#64748b)] dark:bg-[linear-gradient(110deg,#b6eaff,45%,#065074,55%,#b6eaff)] bg-[length:250%_100%] bg-clip-text text-xl text-transparent" }} />
+          <Typography type="HEADING_2" message={aboutMe} styles={{ className: "text-xl text-pretty dark:text-white" }} />
         </header>
       </div>
       <ul className="mt-10 flex flex-wrap gap-4 justify-center">

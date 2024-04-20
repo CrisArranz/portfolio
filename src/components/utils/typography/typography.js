@@ -1,5 +1,5 @@
 import { jsxs as _jsxs, Fragment as _Fragment, jsx as _jsx } from "react/jsx-runtime";
-export const Text = ({ message, styles, children, type }) => {
+export const Typography = ({ message, styles, children, type }) => {
     switch (type) {
         case 'PARAGRAPH':
             return _jsxs("p", { className: styles?.className, children: [message ?? '', children] });

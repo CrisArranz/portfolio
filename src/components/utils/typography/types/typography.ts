@@ -1,4 +1,4 @@
-export type TextProps = {
+export type TypographyProps = {
   message?: string;
   type: keyof typeof ElementType;
   styles?: {
