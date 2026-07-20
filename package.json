@@ -12,7 +12,8 @@
     "heroku-postbuild": "tsc",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "start": "serve -s dist",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "netlify build && netlify deploy --prod"
   },
   "dependencies": {
     "react": "^18.2.0",
